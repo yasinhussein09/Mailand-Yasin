@@ -1,0 +1,77 @@
+/* style.css */
+a.no-change,
+a.no-change:visited,
+a.no-change:hover,
+a.no-change:active {
+  color: rgb(255, 255, 255);          /* fargen du vil ha */
+  text-decoration: none; /* fjern understrek hvis du vil */
+}
+
+/* Body og generelt */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* lys grå bakgrunn */
+}
+
+/* Meny til venstre */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #262226; /* blå meny */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav h2 {
+    font-size: 18px;
+    margin-top: 0;
+    border-bottom: 1px solid #7f8c8d;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 8px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Hovedinnhold */
+main {
+    margin-left: 220px; /* plass til menyen */
+    padding: 40px;
+}
+
+/* Boksene med tekst */
+.welcome {
+    background: rgb(223, 223, 223);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.welcome h1, .welcome h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
