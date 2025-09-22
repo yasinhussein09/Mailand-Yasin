@@ -1,0 +1,31 @@
+li.dropdown {
+  position: relative; /* optional for inline dropdowns */
+}
+
+.dropdown-content {
+  display: none;
+  padding-left: 10px; /* adjust indentation of the dropdown */
+}
+
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 12px;      /* adjust size of each link */
+  margin-bottom: 6px;      /* adjust space between links */
+  color: white;            /* change text color */
+  text-decoration: none;
+  background-color: #262226; /* change background color */
+  border-radius: 4px;
+  padding-top: 10px;       /* adjust space between parent and first child */
+}
+
+.dropdown-content a:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown-content a:hover {
+  background-color: #4c444c; /* change hover color */
+}

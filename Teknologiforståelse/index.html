@@ -2,24 +2,61 @@
 <html lang="no">
 <head>
     <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/dropdown.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mailand IT – Fagoversikt</title>
+    <title>Teknologiforståelse</title>
 </head>
 <body>
 
     <nav>
         <h2><a href="../index.html" class="no-change">Gå Tilbake</a></h2>
-        <ul>
-            <li><a href="../Konseptutvikling/index.html">Konseptutvikling</a></li>
-            <li><a href="../Teknologiforståelse/index.html">Teknologiforståelse</a></li>
-            <li><a href="../Yrkesfagligfordypning/index.html">YFF</a></li>
-            <li><a href="../AboutMe/index.html">Om Meg</a></li>
-            <li><a href="../CV/CV.html">CV</a></li>
-        </ul>
-    </nav>
+  <ul>
+    <!-- Konseptutvikling -->
+    <li class="dropdown">
+      <a href="../Konseptutvikling/index.html">Konseptutvikling</a>
+      <div class="dropdown-content">
+        <a href="#">Tema 1</a>
+        <a href="#">Tema 2</a>
+        <a href="#">Tema 3</a>
+      </div>
+    </li>
+
+    <!-- Teknologiforståelse -->
+    <li class="dropdown">
+      <a href="../Teknologiforståelse/index.html">Teknologiforståelse</a>
+      <div class="dropdown-content">
+        <a href="#">Del 1</a>
+        <a href="#">Del 2</a>
+      </div>
+    </li>
+
+    <!-- YFF -->
+    <li class="dropdown">
+      <a href="../Yrkesfagligfordypning/index.html" class="dropbtn">YFF</a>
+      <div class="dropdown-content">
+        <a href="#">Oppgave 1</a>
+        <a href="#">Oppgave 2</a>
+      </div>
+    </li>
+
+    <!-- Om Meg -->
+    <li class="dropdown">
+      <a href="../AboutMe/index.html" class="dropbtn">Om Meg</a>
+      <div class="dropdown-content">
+      </div>
+    </li>
+
+    <!-- CV -->
+    <li class="dropdown">
+      <a href="../CV/CV.html" class="dropbtn">CV</a>
+      <div class="dropdown-content">
+      </div>
+    </li>
+  </ul>
+</nav>
 <main>
-        <div class="welcome">
+        <div class="gråbox">
             <h1>Teknologiforståelse</h1>
             <h4>Innhold kommer snart...</h4>
         </div>

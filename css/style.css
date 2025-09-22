@@ -1,36 +1,33 @@
-/* style.css */
 a.no-change,
 a.no-change:visited,
 a.no-change:hover,
 a.no-change:active {
-  color: rgb(255, 255, 255);          /* fargen du vil ha */
-  text-decoration: none; /* fjern understrek hvis du vil */
+  color: rgb(255, 255, 255);          /* change link color */
+  text-decoration: none;              /* remove underline if desired */
 }
 
-/* Body og generelt */
 body {
-    margin: 0;
+    margin: 0;                  
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* lys grå bakgrunn */
+    background-color: #ffffff;        /* change background color */
 }
 
-/* Meny til venstre */
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 220px;
     height: 100vh;
-    background-color: #262226; /* blå meny */
-    color: white;
+    background-color: #262226;        /* change sidebar color */
+    color: rgb(255, 255, 255);
     padding: 20px;
     box-sizing: border-box;
-}
+}   
 
 nav h2 {
     font-size: 18px;
     margin-top: 0;
-    border-bottom: 1px solid #7f8c8d;
+    border-bottom: 1px solid #7f8c8d; /* change bottom border color */
     padding-bottom: 5px;
 }
 
@@ -41,37 +38,35 @@ nav ul {
 }
 
 nav ul li {
-    margin: 8px 0;
+    margin: 10px 0;                    /* spacing between menu items */
 }
 
 nav ul li a {
-    color: white;
+    color: white;                       /* link color */
     text-decoration: none;
     display: block;
-    padding: 6px;
-    border-radius: 4px;
+    padding: 6px;                        /* adjust padding */
+    border-radius: 4px;                  /* adjust corner rounding */
 }
 
 nav ul li a:hover {
-    background-color: #34495e;
+    background-color: #34495e;          /* change hover color */
 }
 
-/* Hovedinnhold */
 main {
-    margin-left: 220px; /* plass til menyen */
+    margin-left: 220px; /* space for sidebar */
     padding: 40px;
 }
 
-/* Boksene med tekst */
-.welcome {
-    background: rgb(223, 223, 223);
+.gråbox {
+    background: rgb(223, 223, 223);     /* change box background */
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 30px;                /* adjust rounding */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
+    margin-bottom: -5px;
 }
 
-.welcome h1, .welcome h2 {
+.gråbox h1, .gråbox h2 {
     margin-top: 0;
-    color: #2c3e50;
+    color: #053769;                     /* change heading color */
 }
