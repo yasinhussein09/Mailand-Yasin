@@ -70,3 +70,16 @@ main {
     margin-top: 0;
     color: #053769;                     /* change heading color */
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #262226;          /* change footer background */
+    color: rgb(255, 255, 255);          /* change footer text color */
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 220px);          /* adjust width for sidebar */
+    margin-left: 220px;                 /* align with main content */
+    box-sizing: border-box;
+    left: 0%;
+}
